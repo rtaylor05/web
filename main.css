@@ -1,0 +1,72 @@
+/*
+ Team RRL: Lauren Chin, Roxie Gosfield, Rorie Taylor
+ IntroCS pd7 sec11
+ HW05 -- Stuylin'
+ 2021-02-25
+*/
+
+
+/* this will style all h1 elements with color darkmagenta, font xxx-large in Courier, and a round forestgreen boxshadow */
+h1 {
+    color: darkmagenta;
+    
+    font-size: xxx-large;
+    font-family: Courier;
+    
+    box-shadow: 0 0 10px 10px forestgreen;
+    border-radius: 12px;    
+}
+
+/* this will style all li elements with color darkblue, font large in Lucida Handwriting  */
+li {
+    color: darkblue;
+    
+    font-size: large;
+    font-family: Lucida Handwriting;
+}
+
+/* this will style all h2 elements with color darkmagenta, font xx-large in Courier, and background color skyblue  */
+h2 {
+    color: darkmagenta;
+    
+    font-size: xx-large;
+    font-family:Courier;
+    
+    background-color: skyblue;
+}
+
+/* this will style all h2 elements with a thick double forestgreen border, font large in Papyrus, and a round skyblue boxshadow  */
+p {
+    border-color:forestgreen;
+    border-style:double;
+    border-width:thick;
+    
+    font-size: large;
+    font-family:Papyrus;
+    
+    box-shadow: 0 0 5px 5px skyblue;
+    border-radius: 12px;
+}
+
+/* this will style all img elements with a thick solid forestgreen border  */
+img {
+    border-color: forestgreen;
+    border-style: solid;
+    border-width: thick; 
+}
+
+/* this will style all h3 elements with color darkmagenta, font xx-large in Brush Script MT, and a round forestgreen boxshadow  */
+h3{
+    color: indigo;
+    
+    font-size: xx-large;
+    font-family: Brush Script MT;
+    
+    box-shadow: 0 0 10px 10px forestgreen;
+    border-radius: 12px;
+}
+
+/* this will make the page background burlywood */
+body {
+    background-color:burlywood;
+}ma
