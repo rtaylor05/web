@@ -6,67 +6,81 @@
 */
 
 
-/* this will style all h1 elements with color darkmagenta, font xxx-large in Courier, and a round forestgreen boxshadow */
+/* this will style all h1 elements with color darkmagenta, font xx-large in Papyrus, and a round celestial blue (#48A0C9) boxshadow surrounding a thick solid sea green border (#2E8B55) */
 h1 {
     color: darkmagenta;
     
-    font-size: xxx-large;
-    font-family: Courier;
+    font-size: xx-large;
+    font-family: Papyrus;
     
-    box-shadow: 0 0 10px 10px forestgreen;
-    border-radius: 12px;    
+    box-shadow: 0 0 10px 7px #48A0C9 ;
+    border-radius: 12px;  
+    
+    border-color: #2E8B55;
+    border-style: solid;
+    border-width: thick;
 }
 
-/* this will style all li elements with color darkblue, font large in Lucida Handwriting  */
+/* this will style all li elements with color cyan cobalt blue (#2A58A1), and font large in Lucida Handwriting  */
 li {
-    color: darkblue;
+    color: #2A58A1;
     
     font-size: large;
     font-family: Lucida Handwriting;
 }
 
-/* this will style all h2 elements with color darkmagenta, font xx-large in Courier, and background color skyblue  */
+/* this will style all h2 elements with color darkmagenta, font x-large in Papyrus, and background color eton blue (#9ED2A1)  */
 h2 {
     color: darkmagenta;
     
-    font-size: xx-large;
-    font-family:Courier;
+    font-size: x-large;
+    font-family:Papyrus;
     
-    background-color: skyblue;
+    background-color: #9ED2A1;
 }
 
-/* this will style all h2 elements with a thick double forestgreen border, font large in Papyrus, and a round skyblue boxshadow  */
+/* this will style all h2 elements with a thick double celestial blue (#48A0C9) border, font large in Papyrus, and a round darkseagreen boxshadow  */
 p {
-    border-color:forestgreen;
+    border-color:#48A0C9;
     border-style:double;
     border-width:thick;
     
     font-size: large;
     font-family:Papyrus;
     
-    box-shadow: 0 0 5px 5px skyblue;
+    box-shadow: 0 0 5px 7px darkseagreen;
     border-radius: 12px;
 }
 
-/* this will style all img elements with a thick solid forestgreen border  */
+/* this will style all a (links) elements with medium-sized font in Papyrus */
+a {
+    font-size: medium;
+    font-family:Papyrus;
+}
+
+/* this will style all img elements with a thick solid darkseagreen border  */
 img {
-    border-color: forestgreen;
+    border-color: darkseagreen;
     border-style: solid;
     border-width: thick; 
 }
 
-/* this will style all h3 elements with color darkmagenta, font xx-large in Brush Script MT, and a round forestgreen boxshadow  */
+/* this will style all h3 elements with color darkmagenta, font x-large in Papyrus, and a round sea green (#2E8B55) boxshadow surrounding a thick solid celestial blue (#48A0C9) border  */
 h3{
-    color: indigo;
+    color: darkmagenta;
     
-    font-size: xx-large;
-    font-family: Brush Script MT;
+    font-size: x-large;
+    font-family: Papyrus;
     
-    box-shadow: 0 0 10px 10px forestgreen;
+    box-shadow: 0 0 10px 7px #2E8B55;
     border-radius: 12px;
+    
+    border-color: #48A0C9;
+    border-style: solid;
+    border-width: thick;
 }
 
-/* this will make the page background burlywood */
+/* this will make the page background the color dirty white (#E7E8CB) */
 body {
-    background-color:burlywood;
+    background-color:#E7E8CB;
 }ma
