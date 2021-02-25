@@ -21,12 +21,36 @@ h1 {
     border-width: thick;
 }
 
-/* this will style all li elements with color cyan cobalt blue (#2A58A1), and font large in Lucida Handwriting  */
-li {
+/* this will style .Overview of the table of contents with color cyan cobalt blue (#2A58A1), and font large in Lucida Handwriting  */
+.Overview {
     color: #2A58A1;
     
     font-size: large;
     font-family: Lucida Handwriting;
+}
+
+/* this will style .SolomonAsch of the table of contents with color sea green (#2E8B55), and font large in Lucida Handwriting  */
+.SolomonAsch {
+    color: #2E8B55;
+    
+    font-size: large;
+    font-family: Lucida Handwriting;
+}
+
+/* this will style .Miligram of the table of contents with color cyan cobalt blue (#2A58A1), and font large in Lucida Handwriting  */
+.Miligram {
+    color: #2A58A1;
+    
+    font-size: large;
+    font-family: Lucida Handwriting;
+}
+
+/* this will style .Showcase of the table of contents with color sea green (#2E8B55), and font large in Lucida Handwriting  */
+.Showcase {
+    color: #2E8B55;
+    
+    font-size: large;
+    font-family: Lucida Handwriting;  
 }
 
 /* this will style all h2 elements with color darkmagenta, font x-large in Papyrus, and background color eton blue (#9ED2A1)  */
@@ -39,7 +63,7 @@ h2 {
     background-color: #9ED2A1;
 }
 
-/* this will style all h2 elements with a thick double celestial blue (#48A0C9) border, font large in Papyrus, and a round darkseagreen boxshadow  */
+/* this will style all p elements with a thick double celestial blue (#48A0C9) border, font large in Papyrus, and a round darkseagreen boxshadow  */
 p {
     border-color:#48A0C9;
     border-style:double;
@@ -52,18 +76,22 @@ p {
     border-radius: 12px;
 }
 
+
 /* this will style all a (links) elements with medium-sized font in Papyrus */
 a {
     font-size: medium;
     font-family:Papyrus;
 }
 
+
 /* this will style all img elements with a thick solid darkseagreen border  */
 img {
-    border-color: darkseagreen;
-    border-style: solid;
-    border-width: thick; 
+    border-color:darkseagreen;
+    border-style:solid;
+    border-width:thich;
+ 
 }
+
 
 /* this will style all h3 elements with color darkmagenta, font x-large in Papyrus, and a round sea green (#2E8B55) boxshadow surrounding a thick solid celestial blue (#48A0C9) border  */
 h3{
